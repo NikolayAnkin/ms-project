@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "b469dd04-a163-472e-86c8-0e7efc4c27d3",
+		"name": "ms-project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18853292"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8222/api/v1/shuffle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8222/api/v1/shuffle?number=1000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8222",
+					"path": [
+						"api",
+						"v1",
+						"shuffle"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "1000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
